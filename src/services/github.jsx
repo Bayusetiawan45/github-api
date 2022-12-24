@@ -38,7 +38,7 @@ export default function GithubProvider({ children }) {
     try {
       const response = await _AxiosService.get('user/repos', {
         headers: {
-          'Authorization': `Bearer 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`
+          'Authorization': `Bearer ${token}`
         }
       })
       if (response.status === 200) {

@@ -14,7 +14,7 @@ const Profile = () => {
   useEffect(() => {
     getGithubUser('bayusetiawan99')
     getPublicRepository('bayusetiawan99')
-    getAllRepository()
+    getAllRepository('token')
   }, [])
 
   return (
