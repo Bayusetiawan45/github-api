@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  min-height: 90vh;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+}
+
+.horizoltal_line {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.follow {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.follow p {
+  margin-right: 10px;
+}
+
+.repository_section {
+  margin-left: 2rem;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  box-sizing: border-box;
+  grid-column: auto;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.all_repo_header {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.all_repo_header input {
+  border: 1px solid gray;
+  height: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+}

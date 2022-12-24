@@ -1,0 +1,35 @@
+.form {
+  background-color: #e6e2e2;
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  margin: 5rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form h3 {
+  align-self: center;
+  margin: 0;
+}
+
+.form input {
+  border: 1px solid gray;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form button {
+  border: none;
+  padding: 0.5rem;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.form p {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 1rem;
+}
