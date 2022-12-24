@@ -1,9 +1,12 @@
 import React from 'react';
+import '../styles/repo-card.css'
 
-const RepoCard = () => {
+const RepoCard = ({data}) => {
   return (
-    <div>
-      Repo Card
+    <div className='card'>
+      <p className='repo-name'>{data?.name}</p>
+      <p className='description'>{data?.description}</p>
+      <p>{data?.visibility}</p>
     </div>
   );
 };

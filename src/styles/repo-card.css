@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  margin: 0;
+}
+
+.repo-name {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 1rem;
+}
