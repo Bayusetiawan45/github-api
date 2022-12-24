@@ -56,6 +56,9 @@ const Profile = () => {
 
   useEffect(() => {
     getToken()
+  }, [])
+
+  useEffect(() => {
     if (username) {
       getGithubUser(username)
       getPublicRepository(username)

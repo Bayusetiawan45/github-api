@@ -15,7 +15,6 @@ const Home = () => {
   }
 
   const handleSubmit = (e) => {
-    console.log(user)
     e.preventDefault()
     if (user) {
       localStorage.setItem('user', JSON.stringify(user))
